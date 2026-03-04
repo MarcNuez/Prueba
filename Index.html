@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario Compartir</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+    header {
+        background-color: #0073e6;
+        color: white;
+        padding: 40px 20px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    main {
+        padding: 30px 20px;
+    }
+    iframe {
+        width: 100%;
+        max-width: 600px;
+        height: 800px;
+        border: none;
+        margin-bottom: 30px;
+    }
+    .share-text {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .whatsapp-button {
+        display: inline-block;
+        background-color: #25D366;
+        color: white;
+        padding: 15px 30px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: background-color 0.2s;
+    }
+    .whatsapp-button:hover {
+        background-color: #1ebe5d;
+    }
+    footer {
+        margin-top: 40px;
+        padding: 20px;
+        font-size: 14px;
+        color: #555;
+    }
+</style>
+</head>
+<body>
+    <header>
+        ¡Gracias por visitar nuestro formulario!
+    </header>
+    <main>
+        <!-- Incrustar Google Form -->
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekb2WUMAhGI-5X8R4tsqvxohA_p3zlrN-2KcbK8xMVdaPJnA/viewform?embedded=true" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+        <!-- Texto de compartir -->
+        <div class="share-text">
+            Si te ha gustado, compártelo con tus amigos por WhatsApp:
+        </div>
+
+        <!-- Botón de WhatsApp -->
+        <a class="whatsapp-button" href="https://wa.me/?text=Acabo%20de%20rellenar%20este%20formulario%20👉%20https://docs.google.com/forms/d/e/1FAIpQLSekb2WUMAhGI-5X8R4tsqvxohA_p3zlrN-2KcbK8xMVdaPJnA/viewform?embedded=true" target="_blank">
+            Compartir por WhatsApp
+        </a>
+    </main>
+    <footer>
+        Gracias por compartir 🙂  
+    </footer>
+</body>
+</html>
